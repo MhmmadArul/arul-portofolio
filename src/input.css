@@ -1,0 +1,66 @@
+@font-face {
+    font-family: "KoHo";
+    src: url("../public/fonts/KoHo/KoHo-Regular.ttf") format("ttf");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Konkhmer";
+    src: url("../public/fonts/Konkhmer/KonkhmerSleokchher-Regular.ttf") format("ttf");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@import "tailwindcss";
+
+@theme {
+    --font-KoHo: "KoHo", sans-serif;
+    --font-Konkhmer: "Konkhmer", sans-serif;
+}
+
+body {
+    background-color: #F6F6F6;
+}
+
+
+/* About */
+.tech-about svg {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.tech-project svg {
+    margin-top: 20px;
+    width: 30px;
+    height: 30px;
+}
+
+
+/* Contact */
+#contacts input,
+textarea {
+    margin-bottom: 20px;
+    width: 380px;
+    border-bottom: 1px solid #ccccccee;
+    padding-left: 5px;
+    padding-top: 5px;
+    border-radius: 10px;
+    font-family: "KoHo";
+}
+
+#contacts input {
+    height: 50px;
+}
+
+#contacts textarea {
+    height: 90px;
+}
+
+.social-icon svg {
+    width: 35px;
+    height: 35px;
+}
