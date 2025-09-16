@@ -27,12 +27,6 @@ body {
 
 
 /* About */
-.tech-about svg {
-    width: 40px;
-    height: 40px;
-    cursor: pointer;
-}
-
 .tech-project svg {
     margin-top: 20px;
     width: 30px;
@@ -54,13 +48,44 @@ textarea {
 
 #contacts input {
     height: 50px;
+    width: 100%;
 }
 
 #contacts textarea {
     height: 90px;
+    width: 100%;
 }
 
 .social-icon svg {
     width: 35px;
     height: 35px;
+}
+
+
+@media (min-width: 360px) {
+    .tech-about svg {
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .social-icon svg {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media (min-width:1280px) {
+    .tech-about svg {
+        width: 40px;
+        height: 40px;
+        cursor: pointer;
+    }
+
+    .social-icon svg {
+        width: 35px;
+        height: 35px;
+    }
 }

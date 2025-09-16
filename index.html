@@ -9,9 +9,9 @@
 </head>
 
 <body>
-    <div class="containers">
-        <nav class="p-7">
-            <ul class="flex justify-center gap-16 text-lg font-Konkhmer font-semibold text-gray-400">
+    <div class="containers mx-auto max-w-full">
+        <nav>
+            <ul class="p-7 flex justify-center gap-10 xl:gap-16 text-lg font-Konkhmer font-semibold text-gray-400">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#projects">Projects</a></li>
@@ -20,8 +20,9 @@
 
         <div id="home">
             <div class="text-center mt-[170px]">
-                <h3 class="font-KoHo text-3xl mb-2">Hi, I’m Muhammad Arul 👋</h3>
-                <h1 class="font-Konkhmer font-bold text-5xl mb-4"><span class="text-orange-400">FRONT</span>END
+                <h3 class="font-KoHo mb-2 text-2xl xl:text-4xl">Hi, I’m Muhammad Arul 👋</h3>
+                <h1 class="font-Konkhmer font-bold text-3xl mb-4 xl:text-5xl"><span
+                        class="text-orange-400">FRONT</span>END
                     DEVELOPER
                 </h1>
                 <div class="font-Konkhmer font-semibold mt-3 flex justify-center gap-2">
@@ -32,20 +33,25 @@
         </div>
 
         <div id="about">
-            <div class=" mt-[200px] py-15 px-24">
-                <h1 class="font-Konkhmer font-semibold text-6xl">About me.</h1>
+            <div class=" mt-[200px] py-5 px-7 xl:py-15 xl:px-24">
+                <h1 class="font-Konkhmer font-semibold text-5xl xl:text-6xl ">About me.</h1>
                 <div class="flex gap-3 items-center">
-                    <span class="w-2 h-13 bg-orange-400"></span>
-                    <h4 class="font-KoHo text-[17px]">Menghadirkan web yang hidup, interaktif, responsif, dan
+                    <span class="w-1 h-11 xl:h-12 bg-orange-400"></span>
+                    <h4 class="font-KoHo text-[15px] xl:text-[17px] w-xl">Menghadirkan web yang hidup, interaktif,
+                        responsif,
+                        dan
                         nyaman
                         untuk
-                        <br> pengguna.
+                        pengguna.
                     </h4>
                 </div>
 
-                <div class="flex items-center justify-around w-full mt-10">
-                    <div>
-                        <h5 class="font-KoHo w-xl text-xl text-justify">Halo, saya Muhammad Arul. Aktif menekuni bidang
+                <div class="flex items-center justify-around w-full mt-10 flex-col xl:flex-row xl:justify-between">
+                    <div class="order-2 xl:order-1 xl:w-xl">
+                        <h5 class="font-KoHo flex justify-center  text-md xl:text-xl text-justify mt-6">Halo, saya
+                            Muhammad
+                            Arul. Aktif menekuni
+                            bidang
                             Web
                             Development
                             dengan
@@ -57,36 +63,39 @@
                             efisien.</h5>
                         <div class="tech-about flex gap-6 mt-7"></div>
                     </div>
-                    <div class="flex justify-center w-xl ">
-                        <img src="img/profile.png" alt="" class="w-[330px] h-[330px] rounded-full ms-16">
+                    <div class="flex justify-center order-1 xl:order-2 xl:w-lg">
+                        <img src="img/profile.png" alt=""
+                            class="w-[200px] h-[200px] rounded-full xl:w-[330px] xl:h-[330px]">
                     </div>
                 </div>
             </div>
         </div>
 
         <div id="projects">
-            <div class="mt-[50px] py-15 px-24">
-                <h1 class="font-Konkhmer font-semibold text-6xl">Projects.</h1>
+            <div class="mt-[100px] px-5 xl:py-15 xl:px-24">
+                <h1 class="font-Konkhmer font-semibold text-6xl ">Projects.</h1>
                 <div class="wrapper-project mt-10 flex justify-center gap-6 flex-wrap"></div>
             </div>
         </div>
 
         <div id="contacts">
-            <div class="mt-[50px] py-15 px-24">
-                <h1 class="font-Konkhmer font-semibold text-6xl">Contacts.</h1>
-                <div class="flex">
-                    <div class="w-lg">
-                        <h3 class="mt-10 text-[52px] font-KoHo">Let’s <span
+            <div class="mt-[100px] xl:py-15 xl:px-24 px-5">
+                <h1 class="font-Konkhmer font-semibold text-5xl xl:text-6xl">Contacts.</h1>
+                <div class="flex flex-col xl:flex-row xl:gap-6">
+                    <div class="w-lg xl:w-5xl">
+                        <h3 class="mt-10 text-[42px] xl:text-[52px] font-KoHo">Let’s <span
                                 class="text-orange-400 font-Konkhmer font-semibold">Build</span> Something
                             Great Together.
                         </h3>
-                        <h5 class="text-xl mt-3">Feel free to reach out for collaborations, new projects, or just to say
+                        <h5 class="text-lg w-md xl:w-full mt-3">Feel free to reach out for collaborations, new projects,
+                            or just
+                            to say
                             hi.
                         </h5>
                         <div class="wrapper-social flex gap-4 mt-7"></div>
                     </div>
 
-                    <div class="mt-10 ms-[180px]">
+                    <div class="mt-10 xl:w-4xl">
                         <div class="name">
                             <input type="text" placeholder="Nama">
                         </div>
@@ -104,7 +113,7 @@
         </div>
 
         <footer class="mt-10 text-center p-8">
-            <p class="font-KoHo text-gray-600 text-lg">© 2025. Designed & Developed by Muhammad Arul.</p>
+            <p class="font-KoHo text-gray-600 text-md xl:text-lg">© 2025. Designed & Developed by Muhammad Arul.</p>
         </footer>
     </div>
 
