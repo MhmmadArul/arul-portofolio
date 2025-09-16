@@ -23,7 +23,7 @@
 
 body {
     background-color: #F6F6F6;
-    overflow-x: hidden;
+
 }
 
 
@@ -66,6 +66,10 @@ textarea {
 
 
 @media (min-width: 360px) {
+    body {
+        overflow-x: hidden;
+    }
+
     .tech-about svg {
         width: 30px;
         height: 30px;
